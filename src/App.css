@@ -6,11 +6,3 @@ body,
     'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 2em;
 }
-
-.App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}

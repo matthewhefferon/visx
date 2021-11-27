@@ -1,14 +1,14 @@
 import Area from "./components/Area";
-import './App.css';
+import "./App.css";
 import KPI from "./components/KPI";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-4xl p-4">Area Chart</h1>
-      <Area width={900} height={580} />
-      <h1 className="text-4xl p-4 pt-12">KPI's</h1>
+    <div className="container mx-auto flex-col flex self-center p-10">
       <KPI />
+      <div className="p-10 self-center ">
+        <Area width={900} height={580} />
+      </div>
     </div>
   );
 }

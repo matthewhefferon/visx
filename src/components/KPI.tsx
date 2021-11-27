@@ -2,7 +2,7 @@ import React from "react";
 // import { Text } from "@visx/text";
 
 const KPI = () => (
-  <div className="container mx-auto flex justify-evenly pt-10">
+  <div className="flex justify-around pt-10">
     <div className="shadow-2xl rounded-md bg-primary">
       <div className="p-5">
         <div className="text-xl font-semibold mb-2 text-white">
