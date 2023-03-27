@@ -1,9 +1,12 @@
 import "./App.css";
+import BaN from "./components/BaN";
+import Crypto from "./components/Crypto";
 
 function App() {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+    <div className="flex flex-col items-center min-h-screen bg-gray-500 py-8 px-8">
+      {/* <BaN /> */}
+      <Crypto />
     </div>
   );
 }
